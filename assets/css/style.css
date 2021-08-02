@@ -1,0 +1,17 @@
+/* Mjesto gdje definiramo naše stilove
+
+NE MJENJATI foundation.css NIKADA
+*/
+
+
+
+.pocetna{
+    min-height: 600px;
+    background-image:
+  linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+  url('../css/');
+
+    
+    }
+
+   
