@@ -27,11 +27,9 @@ require_once 'izbornik.php';
   <div class="callout pocetna">
   
 
-  <a href="https://github.com/dzvonari"><h4>https://github.com/dzvonari</h4></a>
+  <a href="https://github.com/dzvonari/fish.hr.git"><h4>https://github.com/dzvonari</h4></a>
    <hr/>     
-   
-  <h4>ERA</h4>
-  <img src="era.jpg" alt="era" />
+
            
 
 
