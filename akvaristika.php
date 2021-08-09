@@ -15,40 +15,42 @@ require_once 'izbornik.php';
 
 <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="large-6 cell">
-<h1>O nama</h1>
-<hr>
-         <div class="callout pocetna">
-<p>O nama <br>
-Fish app. je aplikacija namjenjena unosu proizvoda u web shop hrane i opreme za ribice i ostale gmazove. Trudit ćemo se da na našem webu  
-nađete sve potrebno  Vašem ljubimcu.
-<hr>
-
-<hr>
-</div>
+        <div class="large-12 cell">
+          <h1>Akvaristika</h1>
         </div>
-<div class="large-6 cell">
-        <h1> <br>   </h1>
-        <hr>
-   <div class="callout pocetna">
-<p> <br>
-Za sve dodatne informacije s povjerenjem nam se obratite:
+        <div class="large-12 cell">
+        
   <hr>
+  <br>
   
+  <br>
+  <div class="callout pocetna">
+  
+<p>
+Akvaristika je hobi gdje se bavi čuvanjem riba u kućnom akvarijumu.
+
+Akvaristika je jedan od najstarijih ljudskih hobija.
+
+Svoju popularnost je stekla zahvaljujući hobističkim bavljenjem akvarijumima i akvarijumskim životinjama i biljkama.
+Zahvaljujući ljubavi prema akvaristici, ovaj hobi je postao izrazito popularan i rasprostranjen širom cijeloga svijeta.
+Akvaristika je vezana za prirodne nauke: biologija, botanika, ihtiologija, ekologija, mikrobiologija, genetika, 
+fizika, matematika, geografija, informatika. Zatim društvene nauke kao posebno 
+zanimljive za akvaristiku: historija, psihologija, sociologija, pedagogija i ekonomija. 
+A zbog vizualne privlačnosti akvaristika je potencijalni medij za umjetničko izražavanje. 
+</p>     
+<br>
+
+Akvaristika se dijeli prema vrsti vode u kojoj se ribe čuvaju. Postoje tri tipa akvaristike:
+<p> <br>
+    1.Slatkovodna akvaristika <br>
+    2.Morska akvaristika<br>
+    3.Slankasta akvaristika<br>
+    </p>       
+           
 
 
-Sjedište:<br>
- Adresa: Ul. dr. Luje Naletilića 1, 10000, Zagreb<br>
- Telefon: 011/111-111<br>
- Email: fish@fish.hr <br>
- Radno vrijeme
-Svaki dan –  24:00
-</p>
 </div>
      </div>
-
-    
-
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -66,7 +68,7 @@ Svaki dan –  24:00
     
 
   <?php require_once 'predlozak/head.php'; ?>
-
+ 
 </div>
 </div>  
   </head>

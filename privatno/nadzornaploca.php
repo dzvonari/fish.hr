@@ -1,8 +1,4 @@
-
 <?php require_once '../konfiguracija.php'; 
-
-
-
 //štićenje
 sticenjeStranice($putanjaAplikacije);
 ?>
@@ -29,7 +25,7 @@ sticenjeStranice($putanjaAplikacije);
 .highcharts-data-table caption {
     padding: 1em 0;
     font-size: 1.2em;
-    color: #555;
+    color: #533;
 }
 .highcharts-data-table th {
 	font-weight: 600;
@@ -39,10 +35,10 @@ sticenjeStranice($putanjaAplikacije);
     padding: 0.5em;
 }
 .highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
-    background: #f8f8f8;
+    background: #44b9a6;
 }
 .highcharts-data-table tr:hover {
-    background: #f1f7ff;
+    background: #44b9a6;
 }
 
     </style>
@@ -71,11 +67,11 @@ sticenjeStranice($putanjaAplikacije);
 Highcharts.chart('container', {
 
 title: {
-    text: 'Primjer grafa'
+    text: 'Prosječna cijena akvarističke opreme'
 },
 
 subtitle: {
-    text: 'Izvor: Session :)'
+    text: 'Izvor: fish app)'
 },
 
 yAxis: {
@@ -86,7 +82,7 @@ yAxis: {
 
 xAxis: {
     accessibility: {
-        rangeDescription: 'Range: 2010 to 2017'
+        rangeDescription: 'Range: 1 to 50'
     }
 },
 
@@ -101,12 +97,12 @@ plotOptions: {
         label: {
             connectorAllowed: false
         },
-        pointStart: 2010
+        pointStart: 1
     }
 },
 
 series: [{
-    name: 'Cijena',
+    name: 'Količina proizvoda',
     data: [<?php 
     foreach($_SESSION['proizvodi'] as $proizvod){
         echo $proizvod->cijena, ',';

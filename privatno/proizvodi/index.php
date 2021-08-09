@@ -13,7 +13,7 @@ sticenjeStranice($putanjaAplikacije);
         tr > td:nth-child(3),
         tr > td:nth-child(3),
         tr > td:nth-child(3),
-        tfoot > tr > td:nth-child(1){
+        tfoot > tr > td:nth-child(5){
             text-align: right;
         }
     </style>
@@ -24,7 +24,8 @@ sticenjeStranice($putanjaAplikacije);
         <?php require_once '../../predlozak/izbornik.php'; ?>
         <div class="callout pocetna">
             <?php //logiranje($_SESSION['proizvodi']); ?>
-            <a href="dodavanje.php" class="button expanded">Dodaj novi proizvod</a>
+
+<a href="dodavanje.php" class="button expanded">Dodaj novi proizvod</a>
             <table>
                 <thead>
                     <tr>
@@ -32,7 +33,7 @@ sticenjeStranice($putanjaAplikacije);
                         <th>Garancija</th>
                         <th>Cijena</th>
                         <th>Oblik</th>
-                        <th>Robnamarka</th>
+                        <th>Robna marka</th>
                         <th>Boja</th>
                         <th>Akcija</th>
                     </tr>
@@ -59,16 +60,27 @@ sticenjeStranice($putanjaAplikacije);
                 <?php 
                 $prosjek=$suma/count($_SESSION['proizvodi']);
                 endforeach;?>
+
                 </tbody>
                 <tfoot>
-               
-                        <td colspan="2">Prosjek</td>
-                        <td><?php echo number_format($prosjek,2,',','.') ?></td>
+                        
+                        <td colspan="5">Ukupno svi proizvodi</td>
+                        
+                        <td colspan="1"><?php echo number_format($suma,2,',','.') ?></td>
+                        
+     
+
+
                         <td></td>
+          
+       
                    
-                </tfoot>
+                </tfoot> 
             </table>
+           
         </div>
+
+       
         <?php require_once '../../predlozak/podnozje.php'; ?>
     </div>
     <?php require_once '../../predlozak/javascript.php'; ?>

@@ -6,23 +6,38 @@ if(isset($_SESSION['autoriziran'])){
 ?>
 <?php
 require_once 'mobile/Mobile_Detect.php';
+require_once 'izbornik.php';
 ?>
 <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-        
-        
+          
 
 
      
-          <h1>Dobrodošli u aplikaciju FISH APP
+          <h2>Dobrodošli u aplikaciju FISH APP
           
-          </h1>
+          </h2>
             </div>
         <div class="large-12 cell">
 
       
-           <p>Molim Vas upišite Email i Lozinku za prijavu</p> 
+           <p><i>Molimo Vas upišite Email i Lozinku za prijavu</i></p> <br>
+
+           
+           <?php
+
+           
+
+           echo 'Email i lozinke u svrhu vježbe:','<br>';
+           
+           echo  'Email-1 <b>edunova</b>','  &gt ','Lozinka <b>e</b>','<br>'; 
+           
+           echo  'Email-2 <b>tomislav@fish.hr</b>',' &gt ','Lozinka <b>t</b>';
+          
+
+    ?> 
+         
         </div>
       </div>
      </div>
@@ -56,7 +71,7 @@ require_once 'mobile/Mobile_Detect.php';
             <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <h4><li><a href="public.php">O nama</a></li></h4>
+         
         </div>
         <div class="large-12 cell">
          

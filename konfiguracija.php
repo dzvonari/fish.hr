@@ -5,6 +5,8 @@ require_once 'funkcije.php';
 require_once 'mobile/Mobile_Detect.php';
 
 
+      
+
 session_start();
 
 $naslovAplikacije = 'Fish APP';

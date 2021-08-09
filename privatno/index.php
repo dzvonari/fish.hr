@@ -27,8 +27,11 @@ sticenjeStranice($putanjaAplikacije);
 
                     <tr>                   
                     <th><Naziv</th>
-                        <th>Trajanje</th>
+                        <th>Garancija</th>
                         <th>Cijena</th>
+                        <th>Oblik</th>
+                        <th>Robna marka</th>
+                        <th>Boja</th>
                         <th>Akcija</th>
                     </tr>
                 </thead>
@@ -40,7 +43,10 @@ sticenjeStranice($putanjaAplikacije);
                 ?>
                     <tr>
                         <td><?php echo $proizvod->naziv ?></td>
-                        <td><?php echo $proizvod->trajanje ?></td>
+                        <td><?php echo $proizvod->Garancija ?></td>
+                        <td><?php echo $proizvod->cijena ?></td>
+                        <td><?php echo $proizvod->Robna marka ?></td>
+                        <td><?php echo $proizvod->Boja ?></td>                     
                         <td><?php echo number_format($proizvod->cijena,2,',','.') ?></td>
                         <td>
                             <a href="promjena.php?sifra=<?php echo $proizvod->sifra ?>">Promjena</a>

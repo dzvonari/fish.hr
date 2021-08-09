@@ -18,3 +18,4 @@ function sticenjeStranice($putanjaAplikacije)
         exit;
     }
 }
+

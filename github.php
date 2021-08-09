@@ -15,40 +15,28 @@ require_once 'izbornik.php';
 
 <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <div class="large-6 cell">
-<h1>O nama</h1>
-<hr>
-         <div class="callout pocetna">
-<p>O nama <br>
-Fish app. je aplikacija namjenjena unosu proizvoda u web shop hrane i opreme za ribice i ostale gmazove. Trudit ćemo se da na našem webu  
-nađete sve potrebno  Vašem ljubimcu.
-<hr>
-
-<hr>
-</div>
+        <div class="large-12 cell">
+          <h1>github</h1>
         </div>
-<div class="large-6 cell">
-        <h1> <br>   </h1>
-        <hr>
-   <div class="callout pocetna">
-<p> <br>
-Za sve dodatne informacije s povjerenjem nam se obratite:
+        <div class="large-12 cell">
+        
   <hr>
+  <br>
+  
+  <br>
+  <div class="callout pocetna">
   
 
+  <a href="https://github.com/dzvonari"><h4>https://github.com/dzvonari</h4></a>
+   <hr/>     
+   
+  <h4>ERA</h4>
+  <img src="era.jpg" alt="era" />
+           
 
-Sjedište:<br>
- Adresa: Ul. dr. Luje Naletilića 1, 10000, Zagreb<br>
- Telefon: 011/111-111<br>
- Email: fish@fish.hr <br>
- Radno vrijeme
-Svaki dan –  24:00
-</p>
+
 </div>
      </div>
-
-    
-
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -66,7 +54,7 @@ Svaki dan –  24:00
     
 
   <?php require_once 'predlozak/head.php'; ?>
-
+ 
 </div>
 </div>  
   </head>

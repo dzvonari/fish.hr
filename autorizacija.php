@@ -14,6 +14,8 @@ foreach($korisnici as $email=>$lozinka){
     }
 }
 
+
+
 if($postoji){
     $_SESSION['autoriziran']=$_POST['email'];
 
@@ -72,11 +74,16 @@ if($postoji){
     $s->boja='plavocrvena';
 
     $niz[]=$s;
+   
 
     $_SESSION['proizvodi']=$niz;
 
 
+
     header('location:' . $putanjaAplikacije . 'privatno/nadzornaploca.php');
+
+
 }else{
     header('location:' . $putanjaAplikacije . 'index.php');
 }
+
